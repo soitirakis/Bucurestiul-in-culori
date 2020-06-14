@@ -1,0 +1,55 @@
+body {
+  height: 100%; }
+  body h2#grad1 {
+    height: 55px;
+    margin: auto;
+    font-weight: bold;
+    text-align: center;
+    color: #888888;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-image: -webkit-gradient(linear, left top, right top, from(red), color-stop(orange), color-stop(yellow), color-stop(green), color-stop(blue), color-stop(indigo), to(violet));
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); }
+  body .description {
+    max-width: 700px;
+    margin: auto; }
+    body .description p {
+      margin-top: 20px;
+      font-size: 18px;
+      font-family: Inconsolata;
+      font-style: italic; }
+  body #google-map-container {
+    max-width: 100%;
+    height: 500px; }
+  body .profile {
+    margin: 25px;
+    font-weight: bold; }
+  body .card {
+    max-width: 350px;
+    margin: auto;
+    font-family: arial;
+    text-align: center; }
+    body .card img {
+      max-height: 300px;
+      margin: auto; }
+    body .card .card-title {
+      color: black;
+      font-size: 22px;
+      font-weight: bold;
+      padding: 20px; }
+    body .card .card-text {
+      color: grey;
+      font-size: 18px;
+      padding: 10px 0px 5px; }
+    body .card .about-me {
+      color: black;
+      font-weight: bold;
+      background-color: lightgrey;
+      padding: 10px; }
+    body .card .btn {
+      padding: 8px;
+      color: white;
+      background-color: #000;
+      width: 100%; }
+    body .card .close:hover {
+      cursor: pointer; }

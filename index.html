@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bucurestiul in culori</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src="main.js" defer></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgdNNgaOgBcDrjUZSeMtL1OEJ1QWy7TuM&callback=initializationCallBack">
+</script>
+</head>
+
+<body>
+  <!--title-->
+  <h2 id="grad1">Bucurestiul in culori</h2>
+
+  <!--text section-->
+  <div class="container">
+    <div class="row">
+      <div class="description d-flex flex-column justify-content-center">
+        <p>Bucurestiul, asemenea multor orase din Romania, este vazut ca un oras
+          predominant gri si mohorat. De aceea, am hotarat sa-l coloram noi in viile
+          culorile ale curcubeului.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!--Bucharest sectors-->
+  <div id="google-map-container"></div>
+
+  <!--profile section-->
+  <h3 class="profile d-flex flex-xolumn justify-content-center">Profile</h3>
+  <div class="card">
+    <img class="card-img-top" src="img/me.jpeg" alt="My profile image">
+    <div class="card-body">
+      <h5 class="card-title">Anghel Andrei Catalin</h5>
+      <p class="card-text">27 years old</p>
+      <button class="btn" onclick="displayContact()">Contact</button>
+      <div  id="show" style="display:none">
+        <span class="close">&times;</span>
+        <h4 class="card-text about-me">About me</h4>
+        <p class="card-text"><i class="fa fa-phone"> </i> 0747572755</p>
+        <p class="card-text"><i class="material-icons">email</i> zbu_04@yahoo.com</p>
+        <p class="card-text">Hmmm. The most difficult part so far.</p>
+        <p class="card-text"> I hate programming! I hate programming! I hate programming! </p>
+        <p class="card-text"><strong>It works!<i class="far fa-smile"></i></strong> </p>
+        <p class="card-text"><strong>I love programming</strong></p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
